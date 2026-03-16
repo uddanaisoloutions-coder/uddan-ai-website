@@ -1,3 +1,4 @@
+import WhatsAppButton from "./components/WhatsAppButton";
 import Navbar from "./components/Navbar";
 import ContactSection from "./components/ContactSection";
 import PortfolioShowcase from "./components/PortfolioShowcase";
@@ -53,6 +54,7 @@ function App() {
       <PortfolioShowcase />
       <ContactSection />
       <Navbar />
+      <WhatsAppButton />
     </div>
   );
 }
